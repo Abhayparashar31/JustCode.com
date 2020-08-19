@@ -17,6 +17,9 @@ web design of a course offering website..
       * contact : To store contact information
 
 6.In C:\xampp\htdocs folder create a new folder named as justcode
+
 7.Paste all files here
+
 8.Go to http://127.0.0.1/justcode/index.php
+
 9. You can see website is running..
