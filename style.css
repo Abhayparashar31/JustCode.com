@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+.colorchange{
+    font-size: 30px;    
+    animation:  colorchangelogo 4s infinite;
+}
+@keyframes colorchangelogo{
+    0%{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    15%{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    25%{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    35%{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    50%{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    65%{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    80%{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    100%{
+        font-family: fantasy;
+    }
+}
+.top-bar{
+    text-align: right;
+    padding: 3px;
+    margin-top: -10px;
+}
+.top-bar-coloum-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+.top-bar-coloum-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    padding-top: 5px;
+}
+.bg-img{
+    background-image: url("https://cdn-images-1.medium.com/max/1600/1*CNNcukC5TDhzLf4gS1aNMg.jpeg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width:100%;
+    height:100vh;
+    
+}
+.header{
+    padding-top: 230px;
+    box-sizing: border-box;
+}
+.header h3{
+font-size: 42px;
+}
+.header h1{
+font-size:80px;
+font-weight: bold;
+}
+.name{
+    text-transform: capitalize;
+}
+.border{
+    border: 1px solid black;
+}
+.border2{
+    border: 2px ridge gray;
+}
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.r1{
+text-decoration-line: underline;
+}
+#p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    text-align: justify;
+}
+.h2{
+    text-decoration-line: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder 400;
+   
+}
+.mouse:hover{
+box-shadow: -1px 8px 50px black;
+}
+.color:hover{
+  /*  animation:  colorborder 2s infinite; */
+    border-bottom: 2px solid #dc3545;
+}
+#changecolor{
+    animation: colorchange 2s infinite 1s;
+}
+@keyframes colorchange{
+    0%{ color: #dc3545; font-family: Verdana; font-weight: bold;}
+    25%{ color:white; font-family: Verdana; font-weight: bold;}
+    50%{ color: #dc3545; font-family: Verdana; font-weight: bold;}
+    100% {color:white; font-family: Verdana; font-weight: bold;} 
+}
+.h1{
+    text-decoration-line: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder 400;
+    margin-left: 415px;
+}
+
+.r3{
+    margin-left: 90px;
+}
+.text2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder 400;
+}
+h6{
+    text-decoration-line: underline;
+}
+.under{
+    text-decoration-line: underline;
+}
+#wa {
+    display: none;
+    color: red;
+}
+.ro {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .co {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .co img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .co {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .co {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .a{
+      padding-left: 400px;
+  }
+  .c{
+      width: 100%;
+  }
+ .change:hover{
+     color:blue;
+     font-size: 40px;
+ }
