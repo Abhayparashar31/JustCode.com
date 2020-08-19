@@ -1,0 +1,80 @@
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 2px 6px 18px;
+  text-decoration:none;
+  font-size: 25px;
+  color:yellowgreen;
+  display: block;
+}
+
+.sidenav a:hover {
+  border: 1px solid whitesmoke;
+}
+.sidenav h1{
+  color: chartreuse;
+ 
+ margin-top: -10px;
+text-decoration: underline;
+}
+.sidenav h2{
+  color:white;
+  font-weight: bolder;
+  padding-left: 0px;
+  background-color:black;
+}
+
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav *//* Increased text to enable scrolling */
+  padding: 0px 10px;
+  text-justify: auto;
+  /*background-color:		#3CB371;*/ 
+  background-attachment: scroll;
+  color: black;
+  
+}
+.bg-img{
+  background-image: url("4.jpg");
+  background-size: 100% 100%;
+ 
+  width:81%;
+  height:100%;
+  
+}
+.main h2{
+  font-size: 40px;
+  margin-left: 40%;
+  margin-top:-10px;
+  font-family: Verdana;
+
+}
+.main p{
+  font-size: 20px;
+  font-family:Verdana;
+  text-emphasis: spacing;
+  font-display: inherit;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
