@@ -22,4 +22,4 @@ web design of a course offering website..
 
 8.Go to http://127.0.0.1/justcode/index.php
 
-9. You can see website is running..
+9.You can see website is running..
