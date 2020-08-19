@@ -15,6 +15,7 @@ web design of a course offering website..
 5. Create tables names as users and contact
       * users: To store all users
       * contact : To store contact information
+
 6.In C:\xampp\htdocs folder create a new folder named as justcode
 7.Paste all files here
 8.Go to http://127.0.0.1/justcode/index.php
